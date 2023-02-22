@@ -24,17 +24,6 @@ $(call inherit-product, device/oneplus/denniz/device.mk)
 # Inherit some common Project-Elixir stuff.
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
-# Project-Elixir Stuff
-ELIXIR_MAINTAINER := SakilMondal
-ELIXIR_BUILD_TYPE := OFFICIAL
-IS_PHONE := true
-CUSTOM_BUILD_TYPE := OFFICIAL
-TARGET_SUPPORTS_QUICK_TAP := true
-TARGET_SUPPORTS_CALL_RECORDING := true
-FORCE_LAWNCHAIR := true
-EXTRA_UDFPS_ANIMATIONS := true
-FORCE_AOSP_DIALER := true
-
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := aosp_denniz
 PRODUCT_DEVICE := denniz
